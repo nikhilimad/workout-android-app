@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:elevation="4dp">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+     >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMain"
+            android:text="Workout"
+            android:layout_marginLeft="150dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDescription"
+            android:layout_below="@+id/tvMain"
+            android:layout_marginLeft="150dp"
+            android:text="Description"
+            android:textSize="16dp"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvClick"
+            android:text="clickHere"
+            android:textSize="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvDescription"
+            >
+        </TextView>
+
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>

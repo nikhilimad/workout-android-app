@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">XTRAFIT</string>
+
+    <string-array name="Main">
+        <item> WorkOut </item>
+        <item> StopWatch </item>
+        <item> BMI </item>
+    </string-array>
+
+    <string-array name="Description">
+        <item> Description1 </item>
+        <item> Description2 </item>
+        <item> Description3 </item>
+    </string-array>
+
+</resources>
